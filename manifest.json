@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "User Weather App",
+  "description": "This extension shows a weahther of a user's location",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "notifications",
+    "geolocation",
+    "http://api.wunderground.com/api/",
+    "alarms"
+  ]
+}
